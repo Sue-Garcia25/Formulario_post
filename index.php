@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <div>
+            <label for="">User name or email address</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" name = "password">
+        </div>
+        <div>
+            <input type="submit" value ="Enviar">
+        </div>
+    </form>
 </body>
 </html>

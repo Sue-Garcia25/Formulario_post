@@ -6,18 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post">
-        <div>
+    <section class="login">
+        <div class="form">
+        <form action="" method="post">
+          <div class="form-control">
             <label for="">User name or email address</label>
-            <input type="text" name="username">
-        </div>
-        <div>
+          </div>
+          <div class="form-control">
+            <input type="text" class="text" name="username">
+          </div>
+          <div class="form-control">
             <label for="">Password</label>
-            <input type="password" name = "password">
-        </div>
-        <div>
-            <input type="submit" value ="Enviar">
-        </div>
-    </form>
+          </div>
+          <div class="form-control">
+           <input type="password" name = "password">
+          </div>
+          <div class="form-control">
+            <input type="submit" class="btn" value ="Enviar">
+           </div>
+       </form>
+      </div>
+    </section>
 </body>
 </html>

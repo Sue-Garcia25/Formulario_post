@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-}
+} 
 .login{
     width: 40%;
     margin: 0 auto;
@@ -10,6 +10,7 @@
     background-color: #f8f8f8;
     width: 40%;
     text-align: center;
+    border: 1px solid #d2d2d2; 
 }
 .form-control{
     margin-top: 6px;
@@ -21,7 +22,7 @@
     border: 1px solid #c2c2c2; 
 }
 .btn{
-    padding: 10px 100px;
+    padding: 10px;
     background-color: #216e39;
     color: white;
     border: 1px solid #216e39; 
